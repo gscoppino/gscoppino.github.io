@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "author": "Giuseppe Scoppino <scoppino.giuseppe@gmail.com>",
+    "description": "Source code for my personal website.",
+    "url": "http://gscoppino.github.io",
+    "version": "0.0.0",
+    "browser": true,
+    "repository": "github:gscoppino/gscoppino.github.io",
+    "license": "UNLICENSED",
+    "bugs": "https://github.com/gscoppino/gscoppino.github.io/issues"
+}
