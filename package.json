@@ -10,5 +10,8 @@
     "bugs": "https://github.com/gscoppino/gscoppino.github.io/issues",
     "devDependencies": {
         "browser-sync": "^2.26.3"
+    },
+    "scripts": {
+        "start": "browser-sync -w ."
     }
 }
