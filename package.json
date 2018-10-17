@@ -7,5 +7,8 @@
     "browser": true,
     "repository": "github:gscoppino/gscoppino.github.io",
     "license": "UNLICENSED",
-    "bugs": "https://github.com/gscoppino/gscoppino.github.io/issues"
+    "bugs": "https://github.com/gscoppino/gscoppino.github.io/issues",
+    "devDependencies": {
+        "browser-sync": "^2.26.3"
+    }
 }
