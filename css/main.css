@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    /*color: #222;*/
     font-size: 1em;
     line-height: 1.4;
 }
@@ -97,21 +97,183 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
+html {
+    color: #ccc;
+    background-color: #222;
+}
 
+html, body {
+    height: 100%;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 
+.no-list-style {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
 
+a.btn {
+    background-color: #07f;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
 
+.jumbo-profile {
+    width: 256px;
+    height: 256px;
+    border-radius: 1rem;
+}
 
+.mini-profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
 
+.page-header,
+.page-footer {
+    width: 100%;
+    text-align: center;
+}
 
+.page-header-divider {
+    margin-top: 0;
+}
 
+.page-footer h2 {
+    margin-bottom: 1rem;
+}
 
+.page-header,
+.page-main,
+.page-footer .page-navigation,
+.page-footer .contact-info {
+    padding: 1rem;
+}
 
+.page-footer .page-navigation {
+    background-color: #333;
+}
 
+.page-footer .contact-info {
+    background-color: #444;
+}
 
+.page-footer .contact-info address a {
+    color: #ccc;
+}
 
+.page-footer * {
+    margin: 0;
+}
+
+.page-link-item {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.page-link-item a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.page-header .page-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.page-brand .brand-name {
+    display: block;
+    margin-left: 1rem;
+}
+
+main {
+    flex: 1;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+    .page-header {
+        text-align: unset;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .page-header * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .page-header .page-brand {
+        padding-left: unset;
+    }
+
+    .page-header .page-navigation .page-links-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .page-header .page-navigation .page-links-list .page-link-item {
+        margin-bottom: unset;
+        padding: 1rem;
+    }
+
+    .page-footer {
+        text-align: unset;
+        display: flex;
+        flex-direction: row;
+        padding-top: unset;
+    }
+
+    .page-footer .page-navigation {
+        flex: 1;
+    }
+
+    .page-footer .contact-info {
+        width: 350px;
+    }
+
+    .page-footer .page-navigation,
+    .page-footer .contact-info {
+        padding: 1rem;
+    }
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
 
 /* ==========================================================================
    Helper classes
@@ -191,23 +353,6 @@ textarea {
 
 .clearfix:after {
     clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
