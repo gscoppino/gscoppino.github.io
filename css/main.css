@@ -130,17 +130,27 @@ a.btn {
     border-radius: 4px;
 }
 
+a.external-link {
+  color: #ccc;
+}
+
+.profile {
+  width: 128px;
+  height: 128px;
+  border-radius: 1rem;
+}
+
 .jumbo-profile {
     width: 256px;
     height: 256px;
     border-radius: 1rem;
 }
 
-.mini-profile {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-}
+/*.mini-profile {*/
+    /*width: 48px;*/
+    /*height: 48px;*/
+    /*border-radius: 50%;*/
+/*}*/
 
 .page-header,
 .page-footer {
@@ -169,10 +179,6 @@ a.btn {
 
 .page-footer .contact-info {
     background-color: #444;
-}
-
-.page-footer .contact-info address a {
-    color: #ccc;
 }
 
 .page-footer * {
@@ -208,13 +214,20 @@ main {
 .page-main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     height: 100%;
 }
 
-.page-main.home-page-main {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.page-main h1 {
+    margin-bottom: 0;
+}
+
+.about-me {
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media only screen and (min-width: 35em) {
@@ -269,6 +282,27 @@ main {
     .page-footer .contact-info {
         padding: 1rem;
     }
+}
+
+@media only screen and (min-width: 50em) {
+  .about-me {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 70em) {
+  .about-me {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media only screen and (min-width: 100em) {
+  .about-me {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
 }
 
 @media print,
