@@ -159,7 +159,7 @@ a.external-link {
 }
 
 .page-header-divider {
-    margin-top: 0;
+    margin: 0;
 }
 
 .page-footer h2 {
@@ -171,6 +171,10 @@ a.external-link {
 .page-footer .page-navigation,
 .page-footer .contact-info {
     padding: 1rem;
+}
+
+.page-main {
+    padding-top: 2rem;
 }
 
 .page-footer .page-navigation {
@@ -225,9 +229,24 @@ main {
 }
 
 .about-me {
-  text-align: left;
-  padding-left: 1rem;
-  padding-right: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.projects-content {
+    display: block;
+    width: 100%;
+}
+
+.projects-content .projects-list {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.project-content {
+    background-color: #333;
+    padding: 1.5rem;
 }
 
 @media only screen and (min-width: 35em) {
@@ -282,6 +301,28 @@ main {
     .page-footer .contact-info {
         padding: 1rem;
     }
+
+    .projects-content .projects-list {
+        padding: 1.5rem;
+    }
+
+    .projects-content .projects-list li {
+        text-align: left;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+
+    .project-content div {
+        flex: 1;
+    }
+
+    .project-content aside {
+        width: 300px;
+    }
 }
 
 @media only screen and (min-width: 50em) {
@@ -289,12 +330,20 @@ main {
     padding-left: 5rem;
     padding-right: 5rem;
   }
+
+  .project-content aside {
+    width: 500px;
+  }
 }
 
 @media only screen and (min-width: 70em) {
   .about-me {
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+
+  .project-content aside {
+    width: 700px;
   }
 }
 
