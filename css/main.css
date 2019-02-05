@@ -163,7 +163,7 @@ a.btn {
 /** Header, Footer and Main Page Content Styles **/
 
 .page-header-content,
-.page-footer {
+.page-footer-content {
     width: 100%;
     text-align: center;
 }
@@ -174,8 +174,8 @@ a.btn {
 
 .page-header-content,
 .page-main-content,
-.page-footer .page-navigation,
-.page-footer .contact-info {
+.page-footer-content .page-navigation,
+.page-footer-content .contact-info {
     padding: 1rem;
 }
 
@@ -183,19 +183,19 @@ a.btn {
     padding-top: 2rem;
 }
 
-.page-footer .page-navigation {
+.page-footer-content .page-navigation {
     background-color: #333;
 }
 
-.page-footer .contact-info {
+.page-footer-content .contact-info {
     background-color: #444;
 }
 
-.page-footer * {
+.page-footer-content * {
     margin-top: 0;
 }
 
-.page-footer .page-links-list {
+.page-footer-content .page-links-list {
     margin-bottom: 0;
 }
 
@@ -266,23 +266,23 @@ main {
         padding: 1rem;
     }
 
-    .page-footer {
+    .page-footer-content {
         text-align: unset;
         display: flex;
         flex-direction: row;
         padding-top: unset;
     }
 
-    .page-footer .page-navigation {
+    .page-footer-content .page-navigation {
         flex: 1;
     }
 
-    .page-footer .contact-info {
+    .page-footer-content .contact-info {
         width: 350px;
     }
 
-    .page-footer .page-navigation,
-    .page-footer .contact-info {
+    .page-footer-content .page-navigation,
+    .page-footer-content .contact-info {
         padding: 1rem;
     }
 
