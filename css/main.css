@@ -146,12 +146,6 @@ a.external-link {
     border-radius: 1rem;
 }
 
-/*.mini-profile {*/
-    /*width: 48px;*/
-    /*height: 48px;*/
-    /*border-radius: 50%;*/
-/*}*/
-
 .page-header,
 .page-footer {
     width: 100%;
@@ -203,12 +197,11 @@ a.external-link {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
 .page-brand .brand-name {
     display: block;
-    margin-left: 1rem;
 }
 
 main {
