@@ -288,7 +288,7 @@ main {
 
     /** Projects Page Styles **/
 
-    .projects-list {
+    .page-main-content .projects-list {
         padding: 1.5rem;
     }
 
