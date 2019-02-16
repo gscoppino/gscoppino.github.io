@@ -160,6 +160,13 @@ a.btn {
     border-radius: 1rem;
 }
 
+.screenshot {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.25rem;
+}
+
 /** Header, Footer and Main Page Content Styles **/
 
 .page-header-content,
@@ -227,13 +234,22 @@ main {
 /** Projects Page Styles **/
 
 .projects-list {
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
 }
 
 .projects-list li {
     background-color: #333;
     padding: 1.5rem;
+}
+
+.project-screenshots {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @media only screen and (min-width: 35em) {
@@ -331,6 +347,7 @@ main {
   /** Projects Page Styles **/
   .projects-list li .project-screenshots {
     width: 700px;
+    padding: 3rem;
   }
 }
 
