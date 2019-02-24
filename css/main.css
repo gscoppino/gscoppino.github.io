@@ -253,6 +253,17 @@ main {
     padding-right: 1rem;
 }
 
+.projects-list li .project-details h2 {
+    margin-bottom: 0.5rem;
+}
+
+.projects-list li .project-details h3,
+.projects-list li .project-details h4,
+.projects-list li .project-details h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 @media only screen and (min-width: 35em) {
 
     /** Header and Footer Styles **/
@@ -318,17 +329,6 @@ main {
 
     .projects-list li .project-details {
         flex: 1;
-    }
-
-    .projects-list li .project-details h2 {
-        margin-bottom: 0.5rem;
-    }
-
-    .projects-list li .project-details h3,
-    .projects-list li .project-details h4,
-    .projects-list li .project-details h5 {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
     }
 
     .projects-list li .project-screenshots {
