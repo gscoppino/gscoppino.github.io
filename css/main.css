@@ -320,6 +320,17 @@ main {
         flex: 1;
     }
 
+    .projects-list li .project-details h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .projects-list li .project-details h3,
+    .projects-list li .project-details h4,
+    .projects-list li .project-details h5 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
     .projects-list li .project-screenshots {
         width: 300px;
         flex-direction: row;
