@@ -165,13 +165,7 @@ a.btn {
   width: 100%;
   height: auto;
   padding: 0.25rem;
-}
-
-.mobile-screenshot {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0.25rem;
+  border-radius: 8px;
 }
 
 /** Header, Footer and Main Page Content Styles **/
