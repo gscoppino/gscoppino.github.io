@@ -165,8 +165,13 @@ a.btn {
   display: block;
   width: 100%;
   height: auto;
-  padding: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
   border-radius: 8px;
+}
+
+.fake-screenshot {
+    visibility: hidden;
 }
 
 /** Header, Footer and Main Page Content Styles **/
@@ -250,12 +255,13 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 1rem;
+    padding-left: 0;
     padding-right: 1rem;
 }
 
 .project-screenshots.mobile-project-screenshots {
     flex-direction: row;
+    justify-content: left;
 }
 
 .projects-list li .project-details h2 {
@@ -327,9 +333,16 @@ main {
 
     .projects-list li {
         text-align: left;
+        margin-bottom: 1rem;
+    }
+    
+    .projects-list li .project-heading {
+        margin-bottom: 1rem;
+    }
+
+    .projects-list li .project-body {
         display: flex;
         flex-direction: row;
-        margin-bottom: 1rem;
     }
 
     .projects-list li .project-details {
@@ -370,7 +383,7 @@ main {
   /** Projects Page Styles **/
   .projects-list li .project-screenshots {
     width: 700px;
-    padding: 3rem;
+    padding: 0 3rem 3rem 0;
   }
 
   .mobile-screenshot {
