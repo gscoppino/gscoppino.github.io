@@ -352,6 +352,7 @@ main {
     .projects-list li .project-screenshots {
         width: 300px;
         flex-direction: row;
+        order: -1;
     }
 
     .mobile-screenshot {
