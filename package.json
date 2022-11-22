@@ -9,7 +9,7 @@
     "license": "UNLICENSED",
     "bugs": "https://github.com/gscoppino/gscoppino.github.io/issues",
     "devDependencies": {
-        "browser-sync": "^2.26.3"
+        "browser-sync": "^2.27.10"
     },
     "scripts": {
         "start": "browser-sync -w ."
